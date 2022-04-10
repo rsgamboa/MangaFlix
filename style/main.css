@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+:root{
+    --blue: #00ccee;
+    --blue2: rgb(0, 204, 238,0.5);
+    --black: #141414;
+    --white: #ffffff;
+    --gray: #b5b5b5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+
+/* Base*/
+
+body{
+    background: var(--black);
+    color: var(--white);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+header .logo{
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 250px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--gray);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--blue);
+}
+
+/* Destaque MV */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50)rgba(0,0,0,.50)100%);
+    background: url("https://a-static.besthdwallpaper.com/one-piece-merry-sunny-wallpaper-1920x600-69392_57.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .description{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.filme-principal .title-ds{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Buttons */
+.btn{
+    background-color: var(--white);
+    border: none;
+    color: #000;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: var(--blue2);
+    color: var(--white);
+}
+
+.btn i{
+    margin-right: 8px;
+}
+
+/* Container MV */
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-mv{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+ 
+  .box {
+    display: grid;
+    flex-direction: row;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, minmax(15px, 1fr));
+  }
+
+  .box a {
+    transition: transform .3s;  
+  }
+  
+  .box-mv:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);  
+    transform: scale(1.1);
+  }
+  
+  .box {
+    border-radius: 15px;
+    max-width: 150px;
+    height: auto;
+    
+  }
+ 
+  
+  footer {
+   
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 30px;
+}
+
+.ft-icon i{
+    margin-right: 30px;
+    flex-direction: row;
+    color: var(--white);
+    font-size: 30px;
+    border-bottom: 1px dashed var(--white);
+    padding: 10px 0;
+      
+}
+.ft-icon i:hover{
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
+}
+
+ 
