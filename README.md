@@ -37,7 +37,6 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 <br>
 
 ## Prints
-#
 
 <p align="center">
   <img src="img/prt-01.png"/>
@@ -47,7 +46,6 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 <br>
 
 ## Responsividade
-#
 
 <p align="center">
   <img src="img/mangaflix-site.gif"/>
