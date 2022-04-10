@@ -17,19 +17,16 @@ COVER NETFLIX PAGE
 <br>
 
 ## O Projeto
-#
 Bootcamp DIO Carrefour Web Developer - Criando uma interface simples para streaming de mangas com responsividade.
 
 <br>
 
 ## Desafio
-#
 Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. 
 
 <br>
 
 ## O que foi utilizado:
-#
   * HTML 5
   * CSS 3
   * JAVA SCRIPT
